@@ -14,7 +14,7 @@
     id, name, url, upid, level
   </sql>
   
-  <select id="findByPage" resultMap="BaseResultMap" parameterType="com.swust.base.PageInfo">
+  <select id="findByPage" resultMap="BaseResultMap" parameterType="com.swust.com.swust.base.PageInfo">
   	select *
   		from menu
   	where 1=1;

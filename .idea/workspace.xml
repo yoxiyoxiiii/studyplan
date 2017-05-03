@@ -1,7 +1,246 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03165e92-013c-4059-a121-4e5f1832bc11" name="Default" comment="" />
+    <list default="true" id="03165e92-013c-4059-a121-4e5f1832bc11" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/kotlinc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__com_alibaba_fastjson_1_1_41.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__com_fasterxml_classmate_1_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__commons_pool_commons_pool_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__javax_javaee_api_7_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__javax_validation_validation_api_1_0_0_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__joda_time_joda_time_2_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__jstl_jstl_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_30.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_5_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_activiti_activiti_bpmn_converter_5_22_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_activiti_activiti_bpmn_model_5_22_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_activiti_activiti_engine_5_22_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_activiti_activiti_image_generator_5_22_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_activiti_activiti_process_validation_5_22_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_activiti_activiti_spring_5_22_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_apache_commons_commons_email_1_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_apache_shiro_shiro_ehcache_1_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_6_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_1_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_0_CR2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_mybatis_mybatis_3_4_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_springframework_spring_aop_4_3_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_springframework_spring_beans_4_3_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_springframework_spring_context_4_3_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_springframework_spring_core_4_3_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_springframework_spring_expression_4_3_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_springframework_spring_orm_4_1_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_springframework_spring_test_4_3_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_springframework_spring_tx_4_3_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_springframework_spring_web_4_3_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../studyplan/.idea/uiDesigner.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/base/BaseMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/base/BaseService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/base/PageInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/controller/CourseController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/controller/DepartmentController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/controller/MenuController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/controller/RoleController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/controller/SystemPowerController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/controller/UserController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/db/App.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/db/TestUpdate.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/domain/Course.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/domain/CourseFiles.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/domain/CourseKinds.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/domain/Department.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/domain/Menu.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/domain/Menu_Role.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/domain/Role.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/domain/Role_User.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/domain/Teacher.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/domain/Teacher_Course.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/domain/User.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/filter/InterDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/filter/NoCatchStaticSourcesIntercepter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/mapper/CourseFilesMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/mapper/CourseKindsMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/mapper/CourseMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/mapper/DepartmentMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/mapper/MenuMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/mapper/Menu_RoleMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/mapper/RoleMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/mapper/Role_UserMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/mapper/Teacher_CourseMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/mapper/UserMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/service/CourseFilesService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/service/CourseKindsService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/service/CourseService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/service/DepartmentService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/service/MenuService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/service/RoleService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/service/UserService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/service/impl/CourseFilesServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/service/impl/CourseKindsServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/service/impl/CourseServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/service/impl/DepartmentServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/service/impl/MenuServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/service/impl/RoleServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/service/impl/UserServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/shiro/EhcacheUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/shiro/ShiroUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/shiro/UserRealm.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/test/ActivitiTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/test/javaTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/utils/FileUploadUtils.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/.idea/artifacts/studyplan_war.xml" afterPath="$PROJECT_DIR$/../studyplan/.idea/artifacts/studyplan_war.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/.idea/artifacts/studyplan_war_exploded.xml" afterPath="$PROJECT_DIR$/../studyplan/.idea/artifacts/studyplan_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../studyplan/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/resources/mapper/CourseFilesMapper.xml" afterPath="$PROJECT_DIR$/../studyplan/src/main/resources/mapper/CourseFilesMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/resources/mapper/CourseKindsMapper.xml" afterPath="$PROJECT_DIR$/../studyplan/src/main/resources/mapper/CourseKindsMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/resources/mapper/CourseMapper.xml" afterPath="$PROJECT_DIR$/../studyplan/src/main/resources/mapper/CourseMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/resources/mapper/MenuMapper.xml" afterPath="$PROJECT_DIR$/../studyplan/src/main/resources/mapper/MenuMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/resources/mapper/RoleMapper.xml" afterPath="$PROJECT_DIR$/../studyplan/src/main/resources/mapper/RoleMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/bootstrap-tour/docs/assets/vendor/jquery.js" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/bootstrap-tour/docs/assets/vendor/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/bootstrap-tour/docs/index.html" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/bootstrap-tour/docs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/bootstrap/less/forms.less" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/bootstrap/less/forms.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/bootstrap/less/navbar.less" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/bootstrap/less/navbar.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/bootstrap/less/type.less" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/bootstrap/less/type.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/colorbox/example1/colorbox.css" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/colorbox/example1/colorbox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/colorbox/example2/colorbox.css" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/colorbox/example2/colorbox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/colorbox/example3/colorbox.css" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/colorbox/example3/colorbox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/colorbox/example4/colorbox.css" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/colorbox/example4/colorbox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/colorbox/example5/colorbox.css" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/colorbox/example5/colorbox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/colorbox/i18n/jquery.colorbox-hr.js" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/colorbox/i18n/jquery.colorbox-hr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/datatables/examples/basic_init/base.html" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/datatables/examples/basic_init/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/datatables/examples/basic_init/base_themeroller.html" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/datatables/examples/basic_init/base_themeroller.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/datatables/examples/basic_init/themes.html" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/datatables/examples/basic_init/themes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/datatables/media/js/jquery.dataTables.js" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/datatables/media/js/jquery.dataTables.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/datatables/media/src/core/core.sort.js" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/datatables/media/src/core/core.sort.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/datatables/media/src/core/core.state.js" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/datatables/media/src/core/core.state.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/flot/API.md" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/flot/API.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/flot/NEWS.md" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/flot/NEWS.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/flot/examples/axes-time-zones/date.js" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/flot/examples/axes-time-zones/date.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/flot/examples/axes-time-zones/tz/antarctica" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/flot/examples/axes-time-zones/tz/antarctica" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/flot/examples/axes-time-zones/tz/australasia" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/flot/examples/axes-time-zones/tz/australasia" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/flot/examples/axes-time-zones/tz/europe" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/flot/examples/axes-time-zones/tz/europe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/flot/examples/axes-time-zones/tz/northamerica" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/flot/examples/axes-time-zones/tz/northamerica" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/flot/jquery.flot.js" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/flot/jquery.flot.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/flot/jquery.flot.time.js" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/flot/jquery.flot.time.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/flot/jquery.js" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/flot/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/jquery/jquery.js" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/bower_components/jquery/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/index.html" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/php-version/index.php" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/php-version/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/bootstrap-tour/docs/assets/vendor/jquery.js" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/bootstrap-tour/docs/assets/vendor/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/bootstrap-tour/docs/index.html" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/bootstrap-tour/docs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/bootstrap/less/forms.less" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/bootstrap/less/forms.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/bootstrap/less/navbar.less" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/bootstrap/less/navbar.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/bootstrap/less/type.less" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/bootstrap/less/type.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/colorbox/example1/colorbox.css" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/colorbox/example1/colorbox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/colorbox/example2/colorbox.css" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/colorbox/example2/colorbox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/colorbox/example3/colorbox.css" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/colorbox/example3/colorbox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/colorbox/example4/colorbox.css" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/colorbox/example4/colorbox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/colorbox/example5/colorbox.css" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/colorbox/example5/colorbox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/colorbox/i18n/jquery.colorbox-hr.js" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/colorbox/i18n/jquery.colorbox-hr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/datatables/examples/basic_init/base.html" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/datatables/examples/basic_init/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/datatables/examples/basic_init/base_themeroller.html" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/datatables/examples/basic_init/base_themeroller.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/datatables/examples/basic_init/themes.html" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/datatables/examples/basic_init/themes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/datatables/media/js/jquery.dataTables.js" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/datatables/media/js/jquery.dataTables.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/datatables/media/src/core/core.sort.js" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/datatables/media/src/core/core.sort.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/datatables/media/src/core/core.state.js" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/datatables/media/src/core/core.state.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/flot/API.md" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/flot/API.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/flot/NEWS.md" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/flot/NEWS.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/flot/examples/axes-time-zones/date.js" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/flot/examples/axes-time-zones/date.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/flot/examples/axes-time-zones/tz/antarctica" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/flot/examples/axes-time-zones/tz/antarctica" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/flot/examples/axes-time-zones/tz/australasia" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/flot/examples/axes-time-zones/tz/australasia" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/flot/examples/axes-time-zones/tz/europe" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/flot/examples/axes-time-zones/tz/europe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/flot/examples/axes-time-zones/tz/northamerica" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/flot/examples/axes-time-zones/tz/northamerica" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/flot/jquery.flot.js" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/flot/jquery.flot.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/flot/jquery.flot.time.js" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/flot/jquery.flot.time.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/flot/jquery.js" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/flot/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/jquery/jquery.js" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/bower_components/jquery/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/css/video-js.css" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/css/video-js.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/js/jquery.datetimepicker.js" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/js/jquery.datetimepicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/js/moment.js" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/js/moment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/js/video.dev.js" afterPath="$PROJECT_DIR$/../studyplan/src/main/webapp/static/js/video.dev.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studyplan/studyplan.iml" afterPath="$PROJECT_DIR$/../studyplan/studyplan.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/base/BaseMapper.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/base/BaseMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/base/BaseService.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/base/BaseService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/base/PageInfo.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/base/PageInfo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/controller/CourseController.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/controller/CourseController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/controller/DepartmentController.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/controller/DepartmentController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/controller/MenuController.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/controller/MenuController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/controller/RoleController.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/controller/RoleController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/controller/SystemPowerController.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/controller/SystemPowerController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/controller/UserController.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/controller/UserController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/db/App.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/db/App.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/db/TestUpdate.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/db/TestUpdate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/domain/Course.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/domain/Course.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/domain/CourseFiles.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/domain/CourseFiles.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/domain/CourseKinds.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/domain/CourseKinds.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/domain/Department.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/domain/Department.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/domain/Menu.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/domain/Menu.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/domain/Menu_Role.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/domain/Menu_Role.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/domain/Role.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/domain/Role.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/domain/Role_User.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/domain/Role_User.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/domain/Teacher.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/domain/Teacher.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/domain/Teacher_Course.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/domain/Teacher_Course.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/domain/User.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/domain/User.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/filter/InterDemo.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/filter/InterDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/filter/NoCatchStaticSourcesIntercepter.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/filter/NoCatchStaticSourcesIntercepter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/mapper/CourseFilesMapper.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/mapper/CourseFilesMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/mapper/CourseKindsMapper.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/mapper/CourseKindsMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/mapper/CourseMapper.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/mapper/CourseMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/mapper/DepartmentMapper.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/mapper/DepartmentMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/mapper/MenuMapper.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/mapper/MenuMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/mapper/Menu_RoleMapper.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/mapper/Menu_RoleMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/mapper/RoleMapper.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/mapper/RoleMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/mapper/Role_UserMapper.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/mapper/Role_UserMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/mapper/Teacher_CourseMapper.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/mapper/Teacher_CourseMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/mapper/UserMapper.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/mapper/UserMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/service/CourseFilesService.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/service/CourseFilesService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/service/CourseKindsService.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/service/CourseKindsService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/service/CourseService.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/service/CourseService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/service/DepartmentService.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/service/DepartmentService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/service/MenuService.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/service/MenuService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/service/RoleService.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/service/RoleService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/service/UserService.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/service/UserService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/service/impl/CourseFilesServiceImpl.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/service/impl/CourseFilesServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/service/impl/CourseKindsServiceImpl.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/service/impl/CourseKindsServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/service/impl/CourseServiceImpl.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/service/impl/CourseServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/service/impl/DepartmentServiceImpl.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/service/impl/DepartmentServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/service/impl/MenuServiceImpl.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/service/impl/MenuServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/service/impl/RoleServiceImpl.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/service/impl/RoleServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/service/impl/UserServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/shiro/EhcacheUtils.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/shiro/EhcacheUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/shiro/ShiroUtils.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/shiro/ShiroUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/shiro/UserRealm.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/shiro/UserRealm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/test/ActivitiTest.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/test/ActivitiTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/test/javaTask.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/test/javaTask.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../studyplan/src/main/java/swust/utils/FileUploadUtils.java" afterPath="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/utils/FileUploadUtils.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/../studyplan/out/" />
     <ignored path="$PROJECT_DIR$/../studyplan/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +253,94 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../studyplan/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="263" column="0" lean-forward="false" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../studyplan/src/main/java/com/swust/db/App.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../studyplan/src/main/java/com/swust/base/BaseMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="51" column="4" lean-forward="true" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../studyplan/src/main/java/com/swust/base/BaseService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PageInfo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../studyplan/src/main/java/com/swust/base/PageInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../studyplan/src/main/resources/mapper/MenuMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-216">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1493824487252" expanded="true" signature="909:944" ph="select * fro... menu" />
+                <marker date="1493824487252" expanded="true" signature="1015:1054" ph="select * fro... menu" />
+                <marker date="1493824487252" expanded="true" signature="1161:1204" ph="select * fro... menu" />
+                <marker date="1493824487252" expanded="true" signature="1310:1410" ph="select from menu" />
+                <marker date="1493824487252" expanded="true" signature="1484:1566" ph="select from menu" />
+                <marker date="1493824487252" expanded="true" signature="1643:1686" ph="select count... menu" />
+                <marker date="1493824487252" expanded="true" signature="1771:1825" ph="delete from " />
+                <marker date="1493824487252" expanded="true" signature="1908:2107" ph="insert into menu... " />
+                <marker date="1493824487252" expanded="true" signature="2191:2602" ph="update menu " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="charisma.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/js/charisma.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="16" column="7" lean-forward="false" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+              <folding>
+                <marker date="1488681421145" expanded="true" signature="12514:12520" ph="←" />
+                <marker date="1488681421145" expanded="true" signature="12636:12642" ph="→" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../studyplan/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="33" column="45" lean-forward="false" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -28,6 +350,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../studyplan" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -38,6 +363,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../studyplan/pom.xml" />
+        <option value="$PROJECT_DIR$/../studyplan/src/main/java/base/BaseMapper.java" />
+        <option value="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/BaseMapper.java" />
+        <option value="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/base/BaseMapper.java" />
+        <option value="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/base/BaseService.java" />
+        <option value="$PROJECT_DIR$/../studyplan/src/main/java/com/swust/base/PageInfo.java" />
       </list>
     </option>
   </component>
@@ -110,6 +440,92 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyplan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyplan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="swust" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyplan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyplan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="swust" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyplan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studyplan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="swust" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -120,6 +536,17 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\studyplan\src\main" />
+      <recent name="E:\studyplan\src\main\webapp" />
+      <recent name="E:\studyplan\src\main\resources" />
+      <recent name="E:\studyplan\src\main\java" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -134,6 +561,17 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -164,6 +602,160 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -185,12 +777,83 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="studyplan" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -221,6 +884,35 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -232,41 +924,45 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1493821808050</updated>
-      <workItem from="1493821812230" duration="208000" />
+      <workItem from="1493821812230" duration="2284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208000" />
+    <option name="totallyTimeSpent" value="2284000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="0" width="1934" height="1042" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42987457" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22805017" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16875713" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -280,8 +976,12 @@
     <breakpoint-manager />
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../studyplan/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../studyplan/src/main/java/swust/db/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -289,5 +989,160 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../studyplan/src/main/resources/mapper/MenuMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1493824487252" expanded="true" signature="909:944" ph="select * fro... menu" />
+            <marker date="1493824487252" expanded="true" signature="1015:1054" ph="select * fro... menu" />
+            <marker date="1493824487252" expanded="true" signature="1161:1204" ph="select * fro... menu" />
+            <marker date="1493824487252" expanded="true" signature="1310:1410" ph="select from menu" />
+            <marker date="1493824487252" expanded="true" signature="1484:1566" ph="select from menu" />
+            <marker date="1493824487252" expanded="true" signature="1643:1686" ph="select count... menu" />
+            <marker date="1493824487252" expanded="true" signature="1771:1825" ph="delete from " />
+            <marker date="1493824487252" expanded="true" signature="1908:2107" ph="insert into menu... " />
+            <marker date="1493824487252" expanded="true" signature="2191:2602" ph="update menu " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../studyplan/src/main/webapp/charisma-master/js/charisma.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="16" column="7" lean-forward="false" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding>
+            <marker date="1488681421145" expanded="true" signature="12514:12520" ph="←" />
+            <marker date="1488681421145" expanded="true" signature="12636:12642" ph="→" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../studyplan/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="33" column="45" lean-forward="false" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../studyplan/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="263" column="0" lean-forward="false" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../studyplan/src/main/java/com/swust/db/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../studyplan/src/main/java/com/swust/base/BaseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="51" column="4" lean-forward="true" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../studyplan/src/main/java/com/swust/base/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../studyplan/src/main/java/com/swust/base/PageInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>studyplan:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>studyplan</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:fastjson:1.1.41</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

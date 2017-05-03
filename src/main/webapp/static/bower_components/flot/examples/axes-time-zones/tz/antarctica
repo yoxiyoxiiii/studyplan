@@ -184,7 +184,7 @@ Zone Antarctica/Macquarie 0	-	zzz	1911
 # Mawson Station, Antarctica (1998-02-25)
 # </a>
 
-# Brazil - year-round base
+# Brazil - year-round com.swust.base
 # Comandante Ferraz, King George Island, -6205+05824, since 1983/4
 
 # Chile - year-round bases and towns
@@ -192,7 +192,7 @@ Zone Antarctica/Macquarie 0	-	zzz	1911
 # Presidente Eduadro Frei, King George Island, -6214-05848, since 1969-03-07
 # General Bernardo O'Higgins, Antarctic Peninsula, -6319-05704, since 1948-02
 # Capitan Arturo Prat, -6230-05941
-# Villa Las Estrellas (a town), around the Frei base, since 1984-04-09
+# Villa Las Estrellas (a town), around the Frei com.swust.base, since 1984-04-09
 # These locations have always used Santiago time; use TZ='America/Santiago'.
 
 # China - year-round bases
@@ -222,10 +222,10 @@ Zone Antarctica/Macquarie 0	-	zzz	1911
 Zone Indian/Kerguelen	0	-	zzz	1950	# Port-aux-Francais
 			5:00	-	TFT	# ISO code TF Time
 #
-# year-round base in the main continent
+# year-round com.swust.base in the main continent
 # Dumont-d'Urville, Ile des Petrels, -6640+14001, since 1956-11
 #
-# Another base at Port-Martin, 50km east, began operation in 1947.
+# Another com.swust.base at Port-Martin, 50km east, began operation in 1947.
 # It was destroyed by fire on 1952-01-14.
 #
 # Zone	NAME		GMTOFF	RULES	FORMAT	[UNTIL]
@@ -238,10 +238,10 @@ Zone Antarctica/DumontDUrville 0 -	zzz	1947
 # Dumont d'Urville Station (2005-12-05)
 # </a>
 
-# Germany - year-round base
+# Germany - year-round com.swust.base
 # Georg von Neumayer, -7039-00815
 
-# India - year-round base
+# India - year-round com.swust.base
 # Dakshin Gangotri, -7005+01200
 
 # Japan - year-round bases
@@ -262,14 +262,14 @@ Zone Antarctica/Syowa	0	-	zzz	1957 Jan 29
 # NIPR Antarctic Research Activities (1999-08-17)
 # </a>
 
-# S Korea - year-round base
+# S Korea - year-round com.swust.base
 # King Sejong, King George Island, -6213-05847, since 1988
 
 # New Zealand - claims
 # Balleny Islands (never inhabited)
 # Scott Island (never inhabited)
 #
-# year-round base
+# year-round com.swust.base
 # Scott, Ross Island, since 1957-01, is like Antarctica/McMurdo.
 #
 # These rules for New Zealand are stolen from the `australasia' file.
@@ -290,7 +290,7 @@ Rule	NZAQ	2008	max	-	Apr	Sun>=1	2:00s	0	S
 # claims
 # Peter I Island (never inhabited)
 
-# Poland - year-round base
+# Poland - year-round com.swust.base
 # Arctowski, King George Island, -620945-0582745, since 1977
 
 # Russia - year-round bases
@@ -358,7 +358,7 @@ Zone Antarctica/Vostok	0	-	zzz	1957 Dec 16
 Zone Antarctica/Rothera	0	-	zzz	1976 Dec  1
 			-3:00	-	ROTT	# Rothera time
 
-# Uruguay - year round base
+# Uruguay - year round com.swust.base
 # Artigas, King George Island, -621104-0585107
 
 # USA - year-round bases

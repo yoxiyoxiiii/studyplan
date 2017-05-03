@@ -940,7 +940,7 @@ Zone Atlantic/Faroe	-0:27:04 -	LMT	1908 Jan 11	# Torshavn
 # There are just a few stations on this coast, including the
 # Danmarkshavn ICAO weather station mentioned in your September 29th
 # email.  The other stations are two sledge patrol stations in
-# Mestersvig and Daneborg, the air force base at Station Nord, and the
+# Mestersvig and Daneborg, the air force com.swust.base at Station Nord, and the
 # DPC research station at Zackenberg.
 #
 # Scoresbysund and two small villages nearby keep time UTC-1 and use
@@ -988,7 +988,7 @@ Zone America/Scoresbysund -1:27:52 -	LMT	1916 Jul 28 # Ittoqqortoormiit
 Zone America/Godthab	-3:26:56 -	LMT	1916 Jul 28 # Nuuk
 			-3:00	-	WGT	1980 Apr  6 2:00
 			-3:00	EU	WG%sT
-Zone America/Thule	-4:35:08 -	LMT	1916 Jul 28 # Pituffik air base
+Zone America/Thule	-4:35:08 -	LMT	1916 Jul 28 # Pituffik air com.swust.base
 			-4:00	Thule	A%sT
 
 # Estonia
@@ -1181,7 +1181,7 @@ Rule	France	1976	only	-	Sep	26	 1:00	0	-
 # Shanks & Pottenger give 0:09:20 for Paris Mean Time, and Whitman 0:09:05,
 # but Howse quotes the actual French legislation as saying 0:09:21.
 # Go with Howse.  Howse writes that the time in France was officially based
-# on PMT-0:09:21 until 1978-08-09, when the time base finally switched to UTC.
+# on PMT-0:09:21 until 1978-08-09, when the time com.swust.base finally switched to UTC.
 # Zone	NAME		GMTOFF	RULES	FORMAT	[UNTIL]
 Zone	Europe/Paris	0:09:21 -	LMT	1891 Mar 15  0:01
 			0:09:21	-	PMT	1911 Mar 11  0:01  # Paris MT

@@ -630,7 +630,7 @@ control positioning and full window mode. **
   background-color: #000;
   position: relative;
   padding: 0;
-  /* Start with 10px for base font size so other dimensions can be em based and
+  /* Start with 10px for com.swust.base font size so other dimensions can be em based and
      easily calculable. */
 
   font-size: 10px;

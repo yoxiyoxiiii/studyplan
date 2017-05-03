@@ -770,7 +770,7 @@
     // mechanism, so the result needs to be returned inline.
     this.loadZoneFile = function (fileName, opts) {
       if (typeof this.zoneFileBasePath === 'undefined') {
-        throw new Error('Please define a base path to your zone file directory -- timezoneJS.timezone.zoneFileBasePath.');
+        throw new Error('Please define a com.swust.base path to your zone file directory -- timezoneJS.timezone.zoneFileBasePath.');
       }
       //Ignore already loaded zones.
       if (this.loadedZones[fileName]) {

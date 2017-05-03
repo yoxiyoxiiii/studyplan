@@ -24,7 +24,7 @@
     where id = #{id,jdbcType=INTEGER}
   </select>
   
-  <select id="findByPage" resultMap="BaseResultMap" parameterType="com.swust.base.PageInfo" >
+  <select id="findByPage" resultMap="BaseResultMap" parameterType="com.swust.com.swust.base.PageInfo" >
     select 
     <include refid="Base_Column_List" />
     from course

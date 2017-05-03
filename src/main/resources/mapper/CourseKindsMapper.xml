@@ -18,7 +18,7 @@
     where id = #{id,jdbcType=INTEGER}
   </select>
   
-    <select id="findByPage" resultMap="BaseResultMap" parameterType="com.swust.base.PageInfo" >
+    <select id="findByPage" resultMap="BaseResultMap" parameterType="com.swust.com.swust.base.PageInfo" >
     select 
     <include refid="Base_Column_List" />
     from course_kinds
@@ -38,7 +38,7 @@
     where 1=1
   </select>
   
-  <select id="findByUpId" resultType="com.swust.domain.CourseFiles" parameterType="com.swust.base.PageInfo">
+  <select id="findByUpId" resultType="com.swust.domain.CourseFiles" parameterType="com.swust.com.swust.base.PageInfo">
    SELECT cf.description,cf.files_path
 	 FROM 
 	 course_kinds ck 

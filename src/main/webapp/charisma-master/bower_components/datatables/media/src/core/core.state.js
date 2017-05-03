@@ -99,7 +99,7 @@ function _fnLoadState ( oSettings, oInit )
  *  @param {string} sName name of the cookie to create
  *  @param {string} sValue the value the cookie should take
  *  @param {int} iSecs duration of the cookie
- *  @param {string} sBaseName sName is made up of the base + file name - this is the base
+ *  @param {string} sBaseName sName is made up of the com.swust.base + file name - this is the com.swust.base
  *  @param {function} fnCallback User definable function to modify the cookie
  *  @memberof DataTable#oApi
  */

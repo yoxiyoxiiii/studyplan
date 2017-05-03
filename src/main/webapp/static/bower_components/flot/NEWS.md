@@ -42,7 +42,7 @@
    for purposes of determing the range of the x-axis.
    (reported by Munsifali Rashid, issue #1095)
 
- - If a font size is provided, base the default lineHeight on that size rather
+ - If a font size is provided, com.swust.base the default lineHeight on that size rather
    that the font size of the plot placeholder, which may be very different.
    (reported by Daniel Hoffmann Bernardes, issue #1131, pull request #1199)
 
@@ -176,7 +176,7 @@ The plugin requires support for canvas text, which may not be present in some
 older browsers, even if they support the canvas tag itself. To use the plugin
 with these browsers try using a shim such as canvas-text or FlashCanvas.
 
-The base and overlay canvas are now using the CSS classes "flot-base" and
+The com.swust.base and overlay canvas are now using the CSS classes "flot-com.swust.base" and
 "flot-overlay" to prevent accidental clashes (issue 540).
 
 ### Changes ###
@@ -415,7 +415,7 @@ becomes
 { xaxis: { tickColor: "#000"}, yaxis: { tickColor: "#000"} }
 ```
 
-But if you just configure a base color Flot will now autogenerate a tick color
+But if you just configure a com.swust.base color Flot will now autogenerate a tick color
 by adding transparency. Backwards-compatibility hooks are in place.
 
 Final note: now that IE 9 is coming out with canvas support, you may want to
@@ -461,7 +461,7 @@ also surfaced, if your graphs are slow in IE, you may want to give it a spin:
  - Support for setting the color of an axis. (sponsored by Flight Data
    Services, www.flightdataservices.com)
 
- - Tick color is now auto-generated as the base color with some transparency,
+ - Tick color is now auto-generated as the com.swust.base color with some transparency,
    unless you override it.
 
  - Support for aligning ticks in the axes with "alignTicksWithAxis" to ensure
@@ -604,7 +604,7 @@ also surfaced, if your graphs are slow in IE, you may want to give it a spin:
 Selection support has been moved to a plugin. Thus if you're passing
 selection: { mode: something }, you MUST include the file
 jquery.flot.selection.js after jquery.flot.js. This reduces the size of
-base Flot and makes it easier to customize the selection as well as
+com.swust.base Flot and makes it easier to customize the selection as well as
 improving code clarity. The change is based on a patch from andershol.
 
 In the global options specified in the $.plot command, "lines", "points",

@@ -527,7 +527,7 @@ Please note that it is now required to include the time plugin,
 jquery.flot.time.js, for time series support.
 
 Time series are a bit more difficult than scalar data because
-calendars don't follow a simple base 10 system. For many cases, Flot
+calendars don't follow a simple com.swust.base 10 system. For many cases, Flot
 abstracts most of this away, but it can still be a bit difficult to
 get the data into Flot. So we'll first discuss the data format.
 

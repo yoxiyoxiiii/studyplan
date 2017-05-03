@@ -2357,7 +2357,7 @@ vjs.Button.prototype.onBlur = function(){
 /* Slider
 ================================================================================ */
 /**
- * The base functionality for sliders like the volume bar and seek bar
+ * The com.swust.base functionality for sliders like the volume bar and seek bar
  *
  * @param {vjs.Player|Object} player
  * @param {Object=} options
@@ -2862,7 +2862,7 @@ vjs.Player = vjs.Component.extend({
     // see enableTouchActivity in Component
     options.reportTouchActivity = false;
 
-    // Run base component initializing with new options.
+    // Run com.swust.base component initializing with new options.
     // Builds the element through createEl()
     // Inits and embeds any child components in opts
     vjs.Component.call(this, this, options, ready);
@@ -6332,7 +6332,7 @@ vjs.Player.prototype.showTextTrack = function(id, disableSameKind){
 };
 
 /**
- * The base class for all text tracks
+ * The com.swust.base class for all text tracks
  *
  * Handles the parsing, hiding, and showing of text track cues
  *
@@ -7017,7 +7017,7 @@ vjs.OffTextTrackMenuItem.prototype.update = function(){
 };
 
 /**
- * The base class for buttons that toggle specific text track types (e.g. subtitles)
+ * The com.swust.base class for buttons that toggle specific text track types (e.g. subtitles)
  *
  * @constructor
  */

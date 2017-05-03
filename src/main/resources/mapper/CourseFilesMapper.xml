@@ -18,7 +18,7 @@
     where id = #{id}
   </select>
   
-   <select id="findByPage" parameterType="com.swust.base.PageInfo" resultMap="BaseResultMap">
+   <select id="findByPage" parameterType="com.swust.com.swust.base.PageInfo" resultMap="BaseResultMap">
     select 
     <include refid="Base_Column_List" />
     from course_files
@@ -28,7 +28,7 @@
         </foreach>  
    	</where>
   </select>
-   <select id="findPage" parameterType="com.swust.base.PageInfo" resultMap="BaseResultMap">
+   <select id="findPage" parameterType="com.swust.com.swust.base.PageInfo" resultMap="BaseResultMap">
     select 
     <include refid="Base_Column_List" />
     from course_files

@@ -1,7 +1,7 @@
 /*
 	jQuery Colorbox language configuration
 	language: Croatian (hr)
-	translated by: Mladen Bicanic (base.hr)
+	translated by: Mladen Bicanic (com.swust.base.hr)
 */
 jQuery.extend(jQuery.colorbox.settings, {
 	current: "Slika {current} od {total}",

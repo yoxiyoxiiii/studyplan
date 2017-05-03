@@ -440,7 +440,7 @@
                 if (locales[config.parentLocale] != null) {
                     config = mergeConfigs(locales[config.parentLocale]._config, config);
                 } else {
-                    // treat as if there is no base config
+                    // treat as if there is no com.swust.base config
                     deprecateSimple('parentLocaleUndefined',
                             'specified parentLocale is not defined yet');
                 }

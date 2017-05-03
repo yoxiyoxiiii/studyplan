@@ -378,7 +378,7 @@ function _fnSortingClasses( oSettings )
 		}
 		else
 		{
-			/* No sorting on this column, so add the base class. This will have been assigned by
+			/* No sorting on this column, so add the com.swust.base class. This will have been assigned by
 			 * _fnAddColumn
 			 */
 			$(oSettings.aoColumns[i].nTh).addClass( oSettings.aoColumns[i].sSortingClass );

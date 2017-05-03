@@ -39,7 +39,7 @@
         #cboxTitle{position:absolute; bottom:-25px; left:0; text-align:center; width:100%; font-weight:bold; color:#7C7C7C;}
         #cboxCurrent{position:absolute; bottom:-25px; left:58px; font-weight:bold; color:#7C7C7C;}
 
-        /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+        /* these elements are buttons, and may need to have additional styles reset to avoid unwanted com.swust.base styles */
         #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible;  position:absolute; bottom:-29px; background:url(images/controls.png) no-repeat 0px 0px; width:23px; height:23px; text-indent:-9999px;}
         
         /* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
