@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="studyplan:war">
+    <output-path>$PROJECT_DIR$/../studyplan/target</output-path>
+    <root id="archive" name="com.swust.war">
+      <element id="artifact" artifact-name="studyplan:war exploded" />
+    </root>
+  </artifact>
+</component>
