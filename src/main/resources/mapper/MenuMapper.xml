@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.swust.mapper.MenuMapper" >
+  <resultMap id="BaseResultMap" type="com.swust.domain.Menu" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="url" property="url" jdbcType="VARCHAR" />
+    <result column="upid" property="upid" jdbcType="INTEGER" />
+    <result column="level" property="level" jdbcType="TINYINT" />
+    <association property="parent" column="id" select="findTopMenu"/>
+    <collection property="childs" column="upid" select="findByUpid"/>
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, name, url, upid, level
+  </sql>
+  
+  <select id="findByPage" resultMap="BaseResultMap" parameterType="com.swust.base.PageInfo">
+  	select *
+  		from menu
+  	where 1=1;
+  </select>
+  
+   <select id="findAll" resultMap="BaseResultMap">
+  	select *
+  		from menu
+  	where level=2;
+  </select>
+  
+  <select id="findByUpid" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+  	select *
+  	from menu
+  	where upid=#{upid}
+  </select>
+  
+  <select id="findById" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from menu
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  
+  <select id="findTopMenu" resultMap="BaseResultMap">
+  	 select 
+    <include refid="Base_Column_List" />
+    from menu
+    where level = 1
+  </select>
+  
+   <select id="getCount" resultType="java.lang.Integer">
+  	 select count(1)
+    from menu
+    where 1=1
+  </select>
+  
+  
+  <delete id="deleteById" parameterType="java.lang.Integer" >
+    delete from menu
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  
+  
+  <insert id="save" parameterType="com.swust.domain.Menu" >
+    insert into menu (id, name, url, 
+      upid, level)
+    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{url,jdbcType=VARCHAR}, 
+      #{upid,jdbcType=INTEGER}, #{level,jdbcType=TINYINT})
+  </insert>
+  
+ 
+  <update id="update" parameterType="com.swust.domain.Menu" >
+    update menu
+    <set >
+      <if test="name != null" >
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="url != null" >
+        url = #{url,jdbcType=VARCHAR},
+      </if>
+      <if test="upid != null" >
+        upid = #{upid,jdbcType=INTEGER},
+      </if>
+      <if test="level != null" >
+        level = #{level,jdbcType=TINYINT},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  
+</mapper>

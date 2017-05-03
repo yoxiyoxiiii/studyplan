@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.swust.mapper.CourseKindsMapper" >
+  <resultMap id="BaseResultMap" type="com.swust.domain.CourseKinds" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="description" property="description" jdbcType="VARCHAR" />
+    <result column="icon" property="icon" jdbcType="VARCHAR" />
+    <result column="url" property="url" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, name, description,icon,url
+  </sql>
+  <select id="findById" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from course_kinds
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  
+    <select id="findByPage" resultMap="BaseResultMap" parameterType="com.swust.base.PageInfo" >
+    select 
+    <include refid="Base_Column_List" />
+    from course_kinds
+    where 1=1
+  </select>
+  
+  <select id="findAll" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from course_kinds
+    where 1=1
+  </select>
+  
+  <select id="getCount" resultType="java.lang.Integer">
+    select count(1)
+    from course_kinds
+    where 1=1
+  </select>
+  
+  <select id="findByUpId" resultType="com.swust.domain.CourseFiles" parameterType="com.swust.base.PageInfo">
+   SELECT cf.description,cf.files_path
+	 FROM 
+	 course_kinds ck 
+	 LEFT JOIN course c on ck.id =c.kinds_id 
+	 LEFT JOIN course_files cf on c.id = cf.c_id 
+   WHERE ck.id =#{param};
+  </select>
+  
+  
+  <delete id="deleteById" parameterType="java.lang.Integer" >
+    delete from course_kinds
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  
+  
+  <insert id="save" parameterType="com.swust.domain.CourseKinds" 
+  	useGeneratedKeys="true" keyProperty="id" >
+    insert into course_kinds (id, name, description,icon,url
+      )
+    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{description,jdbcType=VARCHAR},#{icon},#{url}
+      )
+  </insert>
+  
+  <update id="update" parameterType="com.swust.domain.CourseKinds" >
+    update course_kinds
+    <set >
+      <if test="name != null" >
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="description != null" >
+        description = #{description,jdbcType=VARCHAR},
+      </if>
+       <if test="icon != null" >
+        icon = #{icon,jdbcType=VARCHAR},
+      </if>
+       <if test="url != null" >
+        url = #{url,jdbcType=VARCHAR}
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  
+  
+  
+</mapper>

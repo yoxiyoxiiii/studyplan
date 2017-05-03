@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+		<property name="securityManager" ref="securityManager"></property>
+		<property name="successUrl" value="/system/homePage"/>
+		<property name="loginUrl"  value="/system/login.do"/>
+		<!-- 配置 shiro 的拦截器   -->
+		<property name="filterChainDefinitions">
+			<value>
+			    /static/** = anon
+			    /user/** = anon
+			    /*** = authc
+			</value>
+		</property>
+	</bean>
+	
+	<!-- 配置安全管理器 -->
+	<bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+		<property name="realm" ref="userRealm"></property>
+	</bean>
+	
+	<!-- 配置reaml -->
+	<bean id="userRealm" class="com.swust.shiro.UserRealm"/>
+	
+	<!-- 配置 ehCacheManager 对象
+		为shiro 配置 缓存Ehcache
+		shiro 本身不支持缓存，只有缓存的接口，具体实现是不支持的。
+	-->
+	<bean id = "ehCacheManager" class= "org.springframework.cache.ehcache.EhCacheManagerFactoryBean" >  
+	    <property name = "configLocation" value= "classpath:shiro-ehcache.xml" />  
+	</bean> 
+	<!-- 为 shiro 配置缓存 实现 -->
+	<bean id="shiroCacheManager" class="org.apache.shiro.cache.ehcache.EhCacheManager">
+		<property name="cacheManager" ref="ehCacheManager"></property>  
+    </bean>
+</beans>

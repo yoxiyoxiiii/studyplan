@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.swust.mapper.CourseMapper" >
+  <resultMap id="BaseResultMap" type="com.swust.domain.Course" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="start_time" property="startTime" jdbcType="TIMESTAMP" />
+    <result column="end_time" property="endTime" jdbcType="TIMESTAMP" />
+    <result column="long_time" property="longTime" jdbcType="VARCHAR" />
+    <result column="course_number" property="courseNumber" jdbcType="INTEGER" />
+    <result column="per_time" property="perTime" jdbcType="VARCHAR" />
+    <result column="description" property="description" jdbcType="VARCHAR" />
+    <result column="kinds_id" property="kindsId" jdbcType="INTEGER" />
+    <result column="files_path" property="files_path" jdbcType="INTEGER" />
+    <result column="video_path" property="video_path" jdbcType="INTEGER" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, name, start_time, end_time, long_time, course_number, per_time ,description,kinds_id
+  </sql>
+  <select id="findById" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from course
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  
+  <select id="findByPage" resultMap="BaseResultMap" parameterType="com.swust.base.PageInfo" >
+    select 
+    <include refid="Base_Column_List" />
+    from course
+    where 1=1 
+  </select>
+  
+  <select id="finByUpId" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from course
+    where kinds_id = #{kinds_id} and 1 = 1
+  </select>
+  
+  <delete id="deleteById" parameterType="java.lang.Integer" >
+    delete from course
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  
+  
+  <insert id="save" parameterType="com.swust.domain.Course" >
+    insert into course (id, name, start_time, 
+      end_time, long_time, course_number, 
+      per_time,description,kinds_id)
+    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{startTime,jdbcType=TIMESTAMP}, 
+      #{endTime,jdbcType=TIMESTAMP}, #{longTime,jdbcType=VARCHAR}, #{courseNumber,jdbcType=INTEGER}, 
+      #{perTime,jdbcType=VARCHAR},#{description},#{kindsId})
+  </insert>
+  
+  <update id="doUpload" parameterType="map">
+  	update course
+  	<set>
+  		<if test="files_path != null">
+  			files_path = #{files_path}
+  		</if>
+  		<if test="video_path != null">
+  			video_path = #{video_path}
+  		</if>
+  	</set>
+  	where id = #{id}
+  </update>
+  
+ 
+  <update id="update" parameterType="com.swust.domain.Course" >
+    update course
+    <set >
+      <if test="name != null" >
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="startTime != null" >
+        start_time = #{startTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="endTime != null" >
+        end_time = #{endTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="longTime != null" >
+        long_time = #{longTime,jdbcType=VARCHAR},
+      </if>
+      <if test="courseNumber != null" >
+        course_number = #{courseNumber,jdbcType=INTEGER},
+      </if>
+      <if test="perTime != null" >
+        per_time = #{perTime,jdbcType=VARCHAR},
+      </if>
+      
+      <if test="description != null" >
+        description = #{description,jdbcType=VARCHAR},
+      </if>
+       <if test="kindsId != null" >
+        kinds_id = #{kindsId}
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  
+  
+  
+  
+</mapper>

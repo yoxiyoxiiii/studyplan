@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.swust.mapper.UserMapper">
+  <resultMap id="BaseResultMap" type="com.swust.domain.User" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="username" property="username" jdbcType="VARCHAR" />
+    <result column="password" property="password" jdbcType="VARCHAR" />
+    <result column="groupId" property="groupid" jdbcType="INTEGER" />
+    <result column="study_number" property="studyNumber" jdbcType="VARCHAR" />
+    <result column="classes" property="classes" jdbcType="VARCHAR" />
+    <result column="realname" property="realname" jdbcType="VARCHAR" />
+     <result column="image" property="image" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, username, password, groupId, study_number, classes, realname,image
+  </sql>
+  <select id="findById" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from _user
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  
+  <select id="find" resultType="hashmap" parameterType="com.swust.domain.User">
+  	select *
+  	from _user
+  	where id =1
+  </select>
+  
+  <select id="findByUsernameAndPassword" resultMap="BaseResultMap"  parameterType="map">
+  	select 
+  	<include refid="Base_Column_List"/>
+  	from _user
+  	where username = #{username} and password = #{password}
+  </select>
+  
+  
+  <delete id="deleteById" parameterType="java.lang.Integer" >
+    delete from _user
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  
+  
+  <insert id="save" parameterType="com.swust.domain.User" >
+    insert into _user (id, username, password, 
+      groupId, study_number, classes, 
+      realname,image)
+    values (#{id,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
+      #{groupid,jdbcType=INTEGER}, #{studyNumber,jdbcType=VARCHAR}, #{classes,jdbcType=VARCHAR}, 
+      #{realname,jdbcType=VARCHAR},#{image})
+  </insert>
+  
+  <update id="update" parameterType="com.swust.domain.User" >
+    update _user
+    <set >
+      <if test="username != null" >
+        username = #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null" >
+        password = #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="groupid != null" >
+        groupId = #{groupid,jdbcType=INTEGER},
+      </if>
+      <if test="studyNumber != null" >
+        study_number = #{studyNumber,jdbcType=VARCHAR},
+      </if>
+      <if test="classes != null" >
+        classes = #{classes,jdbcType=VARCHAR},
+      </if>
+      <if test="realname != null" >
+        realname = #{realname,jdbcType=VARCHAR},
+      </if>
+      
+      <if test="image != null" >
+        image = #{image,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  
+</mapper>

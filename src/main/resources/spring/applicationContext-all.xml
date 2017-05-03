@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mybatis-spring="http://mybatis.org/schema/mybatis-spring"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring-1.2.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.3.xsd">
+
+<!-- 配置 spring 的总配置文件
+ 1： 数据库连接 池
+ 2： 注解开发 配置 扫描器
+ 3：spring 事物管理
+ 4:和mybatis 整合的 扫描器
+ -->
+ 
+ <!-- 注解开发 配置  主要扫描 service 。 
+ 扫描 以 com.swust 为根路径的 类（该包和 其子包）
+ -->
+  
+ <context:component-scan base-package="com.swust"/>
+
+<!-- mapper扫描器 -->
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<!-- 扫描包路径，如果需要扫描多个包，中间使用半角逗号隔开，扫面mapper 接口和 xml 文件 mappper接口和xml 必须放在同一个包下-->
+		<property name="basePackage" value="com.swust.mapper"></property>
+		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
+	</bean> 
+ 
+ <!-- 数据库配置 -->
+ <!-- 加载db.properties文件中的内容，db.properties文件中key命名要有一定的特殊规则 -->
+	<context:property-placeholder location="classpath:jdbc.properties" />
+	<!-- 配置数据源 ，dbcp -->
+
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
+		destroy-method="close">
+		<property name="driverClassName" value="${jdbc.driver}" />
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+		<property name="maxActive" value="30" />
+		<property name="maxIdle" value="5" />
+	</bean>
+	<!-- sqlSessionFactory -->
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<!-- 数据库连接池 -->
+		<property name="dataSource" ref="dataSource" />
+		<!-- 加载mybatis的全局配置文件 
+		<property name="configLocation" value="classpath:mybatis/sqlMapConfig.xml" />
+		-->
+		<property name="mapperLocations" value="classpath:mapper/*Mapper.xml"/>
+	</bean>
+	
+	
+	
+	
+   <!-- spring mvc 处理文件上传 视图解析 -->
+	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<property name="defaultEncoding" value="utf8"></property>
+	</bean>
+	
+	
+
+
+<!-- 事务管理器 
+	对mybatis操作数据库事务控制，spring使用jdbc的事务控制类
+-->
+<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+	<property name="dataSource" ref="dataSource"/>
+</bean>
+
+<!-- 采用注解事物 管理 -->
+<tx:annotation-driven transaction-manager="transactionManager"/>
+
+<!-- 通知  不适用 声明式 事物
+<tx:advice id="txAdvice" transaction-manager="transactionManager">
+	<tx:attributes>
+	 传播行为  
+		<tx:method name="save*" propagation="REQUIRED"/>
+		<tx:method name="delete*" propagation="REQUIRED"/>
+		<tx:method name="insert*" propagation="REQUIRED"/>
+		<tx:method name="update*" propagation="REQUIRED"/>
+		<tx:method name="find*" propagation="SUPPORTS" read-only="true"/>
+		<tx:method name="get*" propagation="SUPPORTS" read-only="true"/>
+		<tx:method name="select*" propagation="SUPPORTS" read-only="true"/>
+	</tx:attributes>
+</tx:advice>
+
+<aop:config>
+	<aop:advisor advice-ref="txAdvice" pointcut="execution(* com.swust.service.impl.*.*(..))"/>
+</aop:config>
+-->
+
+
+<!-- 导入 整合shiro 的配置文件 -->
+<import resource="applicationContext-shiro.xml"/>
+<!-- 导入 activiti 的配置文件 -->
+<import resource="applicationContext-activiti.xml"/>
+
+
+</beans>

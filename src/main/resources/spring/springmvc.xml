@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:mybatis-spring="http://mybatis.org/schema/mybatis-spring"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd
+		http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring-1.2.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+
+	<!-- 注解扫码器 在 spring 的applicationContext.xml 去配置 
+	注意 ：经过实测 和spring 整合 注解扫描器 只有配置 在 springmvc 的配置文件 才能扫描到 @Controller 
+	当然  
+	-->
+
+	<!-- 注解开发 配置 
+	配置 注解 映射器
+	注解 适配器
+	扫描 Controller
+	-->
+	<context:component-scan base-package="com.swust"/>
+	
+	<!-- 注解 驱动 加入校验器到 适配  -->
+	<mvc:annotation-driven  validator="studyplan_validation"/>
+	<!-- 注解 映射器  <mvc:annotation-driven/> 注解 直接可以代替这两个注解
+	<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping"/>
+	
+          注解 适配器 
+	<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter"/>
+     -->
+     
+     
+     <!-- 处理静态资源 不被 springmvc 拦截 
+     location ：静态资源所在的 路径
+     mapping ：映射处理 在 jsp 页面中 访问 ：
+     
+     <link href="<%= basePath%>static/css/charisma-app.css" rel="stylesheet">
+     
+     /static/css/** 就是 指应用 路径下 /static/css/** 
+     -->
+     <mvc:resources location="/static/css/" mapping="/static/css/**"/>
+     <mvc:resources location="/static/img/" mapping="/static/img/**"/>
+     <mvc:resources location="/static/js/" mapping="/static/js/**"/>
+     <mvc:resources location="/static/fonts/" mapping="/static/fonts/**"/>
+     <mvc:resources location="/static/bower_components/" mapping="/static/bower_components/**"/>
+     
+     <mvc:resources location="/diagram-viewer/images/" mapping="/diagram-viewer/images/**"/>
+     <mvc:resources location="/diagram-viewer/js/" mapping="/diagram-viewer/js/**"/>
+     <mvc:resources location="/diagram-viewer/" mapping="/diagram-viewer/**"/>
+     
+     <mvc:resources location="/editor-app/" mapping="/editor-app/**"/>
+     
+     <!-- 配置 自定义的拦截器 -->
+     <mvc:interceptors>
+     	<mvc:interceptor>
+     	<!-- 拦截的 请求 -->
+     		<mvc:mapping path="/**"/>
+     		<!--   不经过该 拦截器的 请求
+     		<mvc:exclude-mapping path=""/>
+     		-->
+     		<bean class="com.swust.filter.NoCatchStaticSourcesIntercepter"/>
+     	</mvc:interceptor>
+     </mvc:interceptors>
+   
+	
+
+	<!--配置视图解析器  该视图解析器，支持解析jsp -->	
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<!-- 配置jsp 视图前缀 -->
+		<property name="prefix" value="/WEB-INF/jsp/"/>
+		<!-- jsp 视图后缀 -->
+		<property name="suffix" value=".jsp"/>
+	</bean>
+
+	<!-- SpringMVC 的校验器 -->
+	<bean id="studyplan_validation" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean">
+		<!-- 使用 hibernate的校验器 -->
+		<property name="providerClass" value="org.hibernate.validator.HibernateValidator"/>
+		<!-- 配置校验文件信息 如果不配置 ，默认 加载 classpath下的 ValidationMessages.properties文件  -->
+		<property name="validationMessageSource" ref="messageSource"></property>
+	</bean>
+	
+	<!-- 配置 校验信息配置文件 -->
+	<bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+		<!-- 资源名称 -->
+		<property name="basenames">
+			<list><!-- 指定配置文件的位置 -->
+				<value>classpath:CustomValidationMessages</value>
+			</list>
+		</property>
+		<property name="fileEncodings" value="utf-8"/>
+		<!-- 资源内容缓存时间 秒 -->
+		<property name="cacheSeconds" value="120"/>
+	</bean>
+</beans>
