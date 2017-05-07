@@ -51,7 +51,9 @@
      <mvc:resources location="/diagram-viewer/" mapping="/diagram-viewer/**"/>
      
      <mvc:resources location="/editor-app/" mapping="/editor-app/**"/>
-     
+     <!--也可以使用这个注解来管理静态资源
+	 <mvc:default-servlet-handler/>
+	 -->
      <!-- 配置 自定义的拦截器 -->
      <mvc:interceptors>
      	<mvc:interceptor>
