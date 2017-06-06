@@ -183,7 +183,7 @@
     </tr>
     </thead>
     <tbody>
-    <c:forEach items="${pages}" var="c">
+    <c:forEach items="${beans}" var="c">
 	    <tr>
 	        <td>${c.name}</td>
 	        <td class="center">${c.startTime}</td>

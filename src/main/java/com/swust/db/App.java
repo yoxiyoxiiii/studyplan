@@ -15,7 +15,7 @@ public class App
     {
         List<String> warnings = new ArrayList<String>();
         boolean overwrite = true;
-        File configFile = new File("D:/workSpace_eclipse/studyplanSMV/src/main/resources/generatorConfig.xml");//�����ϵ��ļ�·��
+        File configFile = new File("E:/studyplan/src/main/resources/generatorConfig.xml");//�����ϵ��ļ�·��
         ConfigurationParser cp = new ConfigurationParser(warnings);
         Configuration config = cp.parseConfiguration(configFile);
         DefaultShellCallback callback = new DefaultShellCallback(overwrite);

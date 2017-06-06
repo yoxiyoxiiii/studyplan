@@ -8,7 +8,6 @@ public class CourseProcess {
     private Integer cid;
 
     private Integer uid;
-
     public Integer getId() {
         return id;
     }

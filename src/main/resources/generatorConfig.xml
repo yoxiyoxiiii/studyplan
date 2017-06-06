@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
 
-</beans>
+<generatorConfiguration>
+    <!--数据库驱动 所在的本地位置-->
+    <classPathEntry location="E:/maven/.m2/repository/mysql/mysql-connector-java/5.1.21/mysql-connector-java-5.1.21.jar"/>
+
+    <context id="my" targetRuntime="MyBatis3">
+        <commentGenerator>
+            <property name="suppressDate" value="false"/>
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator>
+
+        <!--数据库链接信息-->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/studyplan" userId="root"
+                        password=""/>
+
+        <!--生成对应的实体类 对应的包名和所在的位置-->
+        <javaModelGenerator targetPackage="com.swust.domain"
+                            targetProject="E:\studyplan\src\main\java">
+            <property name="enableSubPackages" value="true"/>
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+        <!--生成的mapper.xml所在的 包名和所在的位置 -->
+        <sqlMapGenerator targetPackage="mapper"
+                         targetProject="E:\studyplan\src\main\resources">
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
+
+        <!--生成的Mapper 接口所在的包名和所在的位置-->
+        <javaClientGenerator targetPackage="com.swust.mapper"
+                             targetProject="E:\studyplan\src\main\java" type="XMLMAPPER">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+
+        <!--<table tableName="T_FEE_AGTBILL" domainObjectName="FeeAgentBill"
+        enableCountByExample="false" enableUpdateByExample="false"
+        enableDeleteByExample="false" enableSelectByExample="false"
+      selectByExampleQueryId="false"/>-->
+
+        <!-- 注意 数据库表要对应，否则不会有对应的代码生成-->
+        <table tableName="course_process" domainObjectName="CourseProcess"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false">
+            <!--<columnRenamingRule searchString="^D_"
+                         replaceString=""/>-->
+        </table>
+
+    </context>
+</generatorConfiguration>

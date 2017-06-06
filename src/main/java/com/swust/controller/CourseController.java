@@ -7,6 +7,7 @@ import com.swust.domain.CourseKinds;
 import com.swust.service.CourseFilesService;
 import com.swust.service.CourseKindsService;
 import com.swust.service.CourseService;
+import com.swust.service.impl.ActivitiService;
 import com.swust.utils.FileUploadUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -39,6 +40,9 @@ public class CourseController{
 	//课程资料
 	@Autowired
 	private CourseFilesService courseFilesService;
+
+	@Autowired
+	private ActivitiService activitiService;
 
 
 	/**
@@ -177,6 +181,7 @@ public class CourseController{
 	@GetMapping("/courseFiles/video")
 	public ModelAndView getCourseVideo(@RequestParam(name="id",required=true) Integer upId,
                                        ModelAndView modelAndView, HttpServletRequest request){
+		activitiService.deployment();
 		List<CourseFiles> list=courseFilesService.findByUpId(upId);
 		modelAndView.addObject("list",list);
 		modelAndView.setViewName("/admin/course/show");
